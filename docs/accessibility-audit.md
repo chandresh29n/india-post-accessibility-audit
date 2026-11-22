@@ -26,7 +26,7 @@ The following testing methods were used:
 | Accessibility | 97/100 |
 | Best Practices | 100/100 |
 | SEO | 100/100 |
-| Performance | 87/100 |
+| Performance | 92/100 |
 
 ### Performance Metrics
 
