@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore postal services through an accessible demonstration directory.">
+    <title>Postal Services Directory</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="/" class="logo">Postal Services</a>
+            <a href="#services" class="nav-link">Explore Services</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="tagline">ACCESSIBLE SERVICE DIRECTORY</p>
+            <h1>Explore Postal Services</h1>
+            <p>Find the right postal service for your needs.</p>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Our Services</h2>
+
+            <label for="searchInput">Search postal services</label>
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search services..."
+            >
+
+            <p id="statusMessage" role="status" aria-live="polite">
+                Loading services...
+            </p>
+
+            <div id="servicesContainer" class="services-grid"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Student demonstration project | Rabtech Academy Internship</p>
+        <p>This is not an official India Post website.</p>
+    </footer>
+
+    <script type="module" src="/src/app.js"></script>
+</body>
+</html>
